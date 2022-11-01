@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="TestSuite">
+	<test name="Login_LogOut_Test">
+		<classes>
+			<parameter name="url"
+				value="https://demo.guru99.com/V4/index.php" />
+			<parameter name="username" value="mgr123" />
+			<parameter name="password" value="mgr!23" />
+			<class name="pageobjectmodehandson1.PageObjectModel1" />
+			<method name="loginAction" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->
